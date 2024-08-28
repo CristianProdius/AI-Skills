@@ -1,7 +1,11 @@
 import Header from "./assets/Header";
 import Hero from "./assets/Hero";
 import Parteners from "./assets/Parteners";
-import AboutCourse from "./assets/AboutCourse";
+import Curriculum from "./assets/Curriculum";
+import Social from "./assets/Social";
+import DespreCurs from "./assets/DespreCurs";
+import DeCeParticipi from "./assets/DeCeParticipi";
+import Footer from "./assets/Footer";
 
 const App = () => {
   return (
@@ -9,7 +13,11 @@ const App = () => {
       <Header />
       <Hero />
       <Parteners />
-      <AboutCourse />
+      <DespreCurs />
+      <Social />
+      <Curriculum />
+      <DeCeParticipi />
+      <Footer />
     </div>
   );
 };

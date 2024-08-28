@@ -1,4 +1,4 @@
-const AboutCourse = () => {
+const Curriculum = () => {
   return (
     <section className="bg-[#f9fafe] antialiased">
       <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
@@ -172,4 +172,4 @@ const AboutCourse = () => {
   );
 };
 
-export default AboutCourse;
+export default Curriculum;
