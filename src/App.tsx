@@ -1,24 +1,18 @@
-import Header from "./assets/Header";
-import Hero from "./assets/Hero";
-import Parteners from "./assets/Parteners";
-import Curriculum from "./assets/Curriculum";
-import Social from "./assets/Social";
-import DespreCurs from "./assets/DespreCurs";
-import DeCeParticipi from "./assets/DeCeParticipi";
-import Footer from "./assets/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import HomePage from "./assets/pages/HomePage";
+import Despre from "./assets/pages/Despre";
+import Contact from "./assets/pages/Contact";
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Hero />
-      <Parteners />
-      <DespreCurs />
-      <Social />
-      <Curriculum />
-      <DeCeParticipi />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/despre" element={<Despre />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
 };
 

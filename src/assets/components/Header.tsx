@@ -16,11 +16,11 @@ const Header = () => {
         </a>
         <ul className="hidden md:flex text-2xl">
           <li className="p-4  hover:text-[#00c5e7]">
-            <a href="/">Despre</a>
+            <a href="/despre">Despre</a>
           </li>
 
           <li className="p-4 ml-5 hover:text-[#00c5e7]">
-            <a href="">Contacte</a>
+            <a href="/contact">Contacte</a>
           </li>
 
           <li className="p-4 px-8 ml-5 font-semibold text-white bg-[#ff7070] rounded-[10px] hover:bg-[#00c5e7] transition-all duration-300">
