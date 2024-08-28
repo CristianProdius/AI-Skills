@@ -12,7 +12,7 @@ const Header = () => {
     <div className="bg-[#f9fafe]">
       <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 ">
         <a href="/" className="text-3xl font-bold text-[#222f5d]">
-          AI Skills
+          AI-Oportunități
         </a>
         <ul className="hidden md:flex text-2xl">
           <li className="p-4  hover:text-[#00c5e7]">
@@ -38,7 +38,7 @@ const Header = () => {
           }
         >
           <h1 className="w-full text-3xl font-bold text-[#00c5e7] m-4 pt-8 pl-4">
-            AI Skills
+            AI-Oportunități
           </h1>
           <ul className=" uppercase p-4">
             <li className="p-4 hover:text-[#00c5e7]">
