@@ -13,7 +13,7 @@ const Hero = () => {
           </p>
           <div className="flex items-center">
             <a
-              href=""
+              href="/curs"
               className="inline-flex items-center justify-center px-6 py-4 mr-3  text-base font-semibold text-center text-white rounded-lg bg-[#222f5d] hover:bg-[#00c5e7] transition-all duration-300 "
             >
               Vezi Cursul
