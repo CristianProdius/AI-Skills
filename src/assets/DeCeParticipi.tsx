@@ -1,5 +1,3 @@
-import React from "react";
-
 const DeCeParticipi = () => {
   return (
     <section className="bg-[#f9fafe] pb-12">
