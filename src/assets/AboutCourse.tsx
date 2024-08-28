@@ -168,6 +168,7 @@ const AboutCourse = () => {
         </div>
       </div>
     </section>
+    /*like realy*/
   );
 };
 
