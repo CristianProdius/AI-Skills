@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import MainContent from "../components/MainContent";
 import Sidebar from "../components/Sidebar";
 import CursHeader from "../components/CursHeader";
@@ -372,26 +372,6 @@ const Curs = () => {
 
   const toggleSidebar = () => {
     setIsSidebarVisible(!isSidebarVisible);
-  };
-
-  const handleNextLesson = () => {
-    if (!selectedLesson) return;
-
-    for (let i = 0; i < modules.length; i++) {
-      const module = modules[i];
-      const lessonIndex = module.lessons.findIndex(
-        (lesson) => lesson.title === selectedLesson.title
-      );
-
-      if (lessonIndex !== -1) {
-        if (lessonIndex < module.lessons.length - 1) {
-          setSelectedLesson(module.lessons[lessonIndex + 1]);
-        } else if (i < modules.length - 1) {
-          setSelectedLesson(modules[i + 1].lessons[0]);
-        }
-        break;
-      }
-    }
   };
 
   useEffect(() => {
