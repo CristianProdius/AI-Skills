@@ -12,19 +12,20 @@ const Contact = () => {
     if (form.current) {
       emailjs
         .sendForm(
-          "YOUR_SERVICE_ID", // Replace with your EmailJS service ID
-          "YOUR_TEMPLATE_ID", // Replace with your EmailJS template ID
+          "service_5re1guy", // Replace with your EmailJS service ID
+          "template_wctk5be", // Replace with your EmailJS template ID
           form.current,
-          "YOUR_USER_ID" // Replace with your EmailJS user ID
+          "kes436w6rIz65sEDf" // Replace with your EmailJS public key
         )
         .then(
           (result) => {
             console.log(result.text);
-            alert("Email sent successfully!");
+            alert("Emailul a fost trimis cu Succes!");
+            form.current?.reset();
           },
           (error) => {
             console.log(error.text);
-            alert("Failed to send email. Please try again later.");
+            alert("Upsi ceva erori.");
           }
         );
     }
@@ -94,7 +95,7 @@ const Contact = () => {
               </div>
               <button
                 type="submit"
-                className="py-3 px-5 text-sm font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300"
+                className="py-3 px-5 text-sm font-medium text-center text-white bg-[#222f5d] rounded-lg hover:bg-[#00c5e7] focus:ring-4 focus:outline-none focus:ring-primary-300"
               >
                 Trimite mesajul
               </button>
