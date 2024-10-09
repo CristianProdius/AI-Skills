@@ -6,7 +6,7 @@ const Social = () => {
           <div className="grid max-w-screen-md gap-24 mx-auto text-gray-900 sm:grid-cols-3">
             <div className="flex flex-col items-center justify-center">
               <h1 className="mb-2 text-3xl md:text-4xl font-extrabold text-nowrap text-[#ff7070]">
-                100+ Cursanți
+                100+ Persoane
               </h1>
               <p className=" text-gray-500">
                 Din raioanele Cahul, Cantemir și Taraclia

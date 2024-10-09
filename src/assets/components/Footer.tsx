@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="p-4 bg-white sm:p-6 ">
+    <footer className="p-4 bg-[#FF8E7] sm:p-6 ">
       <div className="mx-auto max-w-screen-xl">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
@@ -10,37 +10,26 @@ const Footer = () => {
               </span>
             </a>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-            <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">
-                Resurse
-              </h2>
-              <ul className="text-gray-600 dark:text-gray-400">
-                <li className="mb-4">
-                  <a href="./" className="hover:underline">
-                    Curs
-                  </a>
-                </li>
-                <li>
-                  <a href="/" className="hover:underline">
-                    Programe Utilizate
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <div className="grid grid-cols-2 gap-8 sm:gap-6 ">
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">
                 Social Media
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
                 <li className="mb-4">
-                  <a href="/" className="hover:underline ">
-                    Instagram
+                  <a
+                    href="https://www.facebook.com/ECOU.Cahul"
+                    className="hover:underline "
+                  >
+                    Facebook Ecou
                   </a>
                 </li>
                 <li>
-                  <a href="./" className="hover:underline">
-                    Telegram
+                  <a
+                    href="https://t.me/+WSkXdqMMxEg3ZDky"
+                    className="hover:underline"
+                  >
+                    Grup Telegram
                   </a>
                 </li>
               </ul>
@@ -51,12 +40,12 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="/data-policy" className="hover:underline">
                     Preluarea Datelor
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="/termeni" className="hover:underline">
                     Termeni &amp; Conditii
                   </a>
                 </li>
@@ -64,7 +53,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       </div>
     </footer>
   );

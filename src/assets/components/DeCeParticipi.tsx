@@ -7,7 +7,7 @@ const DeCeParticipi = () => {
             Acum de ce ai <span className="text-[#ff7070]">participa?</span>
           </h2>
           <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl ">
-            In primul rand cai cool dar daca sincer pai uite:
+            In primul rand este cool dar daca sincer pai uite:
           </p>
         </div>
         <div className="grid mb-8 lg:mb-12 lg:grid-cols-2">
@@ -80,13 +80,13 @@ const DeCeParticipi = () => {
         </div>
         <div className="text-center">
           <h2 className="mb-12  text-4xl tracking-tight font-extrabold text-gray-900 ">
-            Ce teai convins sa participi?
+            Ce te-ai convins sa participi?
           </h2>
           <a
             href="#"
             className=" py-2.5 px-5 mr-2 mb-2 text-md font-medium text-white focus:outline-none bg-[#ff7070] rounded-lg  hover:bg-[#00c5e7]  focus:z-10 focus:ring-4 focus:ring-[#00c5e7] "
           >
-            Hai am plecat
+            Hai cu noi
           </a>
         </div>
       </div>
